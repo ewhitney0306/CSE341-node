@@ -1,0 +1,27 @@
+{
+  "name": "cse341-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewhitney0306/CSE341-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ewhitney0306/CSE341-node/issues"
+  },
+  "homepage": "https://github.com/ewhitney0306/CSE341-node#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.6"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "install": "^0.13.0"
+  }
+}
