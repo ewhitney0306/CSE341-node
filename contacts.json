@@ -1,0 +1,23 @@
+{
+    "contact" : {
+        "firstName" : "Teddy",
+        "lastName" : "Whitney",
+        "email" : "estrebe524@gmail.com",
+        "favoriteColor" : "Red",
+        "birthday" : "05/05/2017"
+    },
+    "contact2" : {
+        "firstName" : "Freya",
+        "lastName" : "Whitney", 
+        "email" : "whitneye0306@gmail.com",
+        "favoriteColor" : "Pink", 
+        "birthday" : "07/02/2019"
+    }, 
+    "contact3" : {
+        "firstName" : "Alice",
+        "lastName" : "Whitney",
+        "email" : "milyrockstheworld524@gmail.com", 
+        "favoriteColor" : "Green",
+        "birthday" : "01/07/2024"
+    }
+}
