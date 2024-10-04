@@ -55,3 +55,30 @@ GET https://cse341-node-mf9u.onrender.com/contacts/66f4029e112ba7adf2f6d03c HTTP
 
 ###
 GET https://cse341-node-mf9u.onrender.com/contacts/66f4033e112ba7adf2f6d03d HTTP/1.1
+
+###
+PUT https://cse341-node-mf9u.onrender.com/contacts/66f401d6112ba7adf2f6d03b
+Content-Type: application/json
+
+{
+    "firstName":"Teddy",
+    "lastName":"Whitney",
+    "email":"twhitney@test.com",
+    "favoriteColor":"Orange",
+    "birthday": "05/05/2017"
+}
+
+###
+POST https://cse341-node-mf9u.onrender.com/contacts
+Content-type:application/json
+
+{
+    "firstName":"Brandon",
+    "lastName":"Whitney",
+    "email":"BrandonWhitney@test.com",
+    "favoriteColor":"Green",
+    "birthday": "06/23/1993"
+}
+
+###
+DELETE https://cse341-node-mf9u.onrender.com/contacts/66ff37dd24f67f30136adafa
