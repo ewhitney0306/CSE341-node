@@ -61,10 +61,10 @@ PUT https://cse341-node-mf9u.onrender.com/contacts/66f401d6112ba7adf2f6d03b
 Content-Type: application/json
 
 {
-    "firstName":"Teddy",
+    "firstName":"Theodore",
     "lastName":"Whitney",
-    "email":"twhitney@test.com",
-    "favoriteColor":"Orange",
+    "email":"TeddyWhitney@test.com",
+    "favoriteColor":"Red",
     "birthday": "05/05/2017"
 }
 
