@@ -1,6 +1,5 @@
 # GET http://localhost:3000 HTTP/1.1
 
-
 ###
 GET http://localhost:8080/contacts
 
@@ -12,6 +11,38 @@ GET http://localhost:8080/contacts/66f4029e112ba7adf2f6d03c
 
 ###
 GET http://localhost:8080/contacts/66f4033e112ba7adf2f6d03d
+
+
+###
+PUT http://localhost:8080/contacts/66f401d6112ba7adf2f6d03b HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName":"Teddy",
+    "lastName":"Whitney",
+    "email":"twhitney@test.com",
+    "favoriteColor":"Orange",
+    "birthday": "05/05/2017"
+}
+
+###
+POST http://localhost:8080/contacts
+Content-type:application/json
+
+{
+    "firstName":"Brandon",
+    "lastName":"Whitney",
+    "email":"BrandonWhitney@test.com",
+    "favoriteColor":"Green",
+    "birthday": "06/23/1993"
+}
+
+
+###
+DELETE http://localhost:8080/contacts/66ff35ea0f97b2a95fd57a58
+
+
+#Production Requests
 
 ###
 GET https://cse341-node-mf9u.onrender.com/contacts HTTP/1.1
