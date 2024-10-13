@@ -43,6 +43,8 @@ DELETE http://localhost:8080/contacts/66ff35ea0f97b2a95fd57a58
 
 
 #Production Requests
+###
+GET https://cse341-node-mf9u.onrender.com/api-docs HTTP/1.1
 
 ###
 GET https://cse341-node-mf9u.onrender.com/contacts HTTP/1.1
