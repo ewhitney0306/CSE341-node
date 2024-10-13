@@ -24,7 +24,7 @@
         }
       },
       "post": {
-        "description": "",
+        "description": "this adds a new contact to the data base",
         "parameters": [
           {
             "name": "body",
@@ -82,7 +82,7 @@
         }
       },
       "put": {
-        "description": "this adds a new contact to the data base",
+        "description": "this allows you to edit a contact in the data base with the provided ID",
         "parameters": [
           {
             "name": "id",
