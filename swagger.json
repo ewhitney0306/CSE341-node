@@ -8,12 +8,12 @@
   "host": "cse341-node-mf9u.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/contacts": {
       "get": {
-        "description": "",
+        "description": "this path returns all contacts in the database",
         "produces": [
           "application/json"
         ],
@@ -63,7 +63,7 @@
     },
     "/contacts/{id}": {
       "get": {
-        "description": "",
+        "description": "this returns the contact connected to the ID provided",
         "produces": [
           "application/json"
         ],
@@ -82,7 +82,7 @@
         }
       },
       "put": {
-        "description": "",
+        "description": "this adds a new contact to the data base",
         "parameters": [
           {
             "name": "id",
@@ -125,7 +125,7 @@
         }
       },
       "delete": {
-        "description": "",
+        "description": "this deletes the contact specified by the ID",
         "parameters": [
           {
             "name": "id",
