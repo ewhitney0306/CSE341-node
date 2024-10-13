@@ -8,7 +8,8 @@
     "start": "nodemon server.js",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
-    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "swagger": "node swagger.js"
   },
   "repository": {
     "type": "git",
@@ -25,12 +26,14 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "nodemon": "^3.1.6",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "swagger-autogen": "^2.23.7"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "install": "^0.13.0",
-    "mongodb": "^6.9.0"
+    "mongodb": "^6.9.0",
+    "swagger-ui-express": "^5.0.1"
   }
 }

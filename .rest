@@ -61,10 +61,10 @@ PUT https://cse341-node-mf9u.onrender.com/contacts/66f401d6112ba7adf2f6d03b
 Content-Type: application/json
 
 {
-    "firstName":"Theodore",
+    "firstName":"Teddy",
     "lastName":"Whitney",
     "email":"TeddyWhitney@test.com",
-    "favoriteColor":"Red",
+    "favoriteColor":"Orange",
     "birthday": "05/05/2017"
 }
 
@@ -81,4 +81,4 @@ Content-type:application/json
 }
 
 ###
-DELETE https://cse341-node-mf9u.onrender.com/contacts/66ff37dd24f67f30136adafa
+DELETE https://cse341-node-mf9u.onrender.com/contacts/66ff3ef2200ee2f29763ce2a
